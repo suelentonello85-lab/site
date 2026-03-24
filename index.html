@@ -4,34 +4,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Suelen</title>
+    <title>Portfólio de Suelen</title>
 </head>
 
 <body>
+
     <header>
+
         <h1>Suelen</h1>
 
         <nav> <!-- Seção de navegação do site. -->
+
             <ul><!-- Lista não ordenada para links do nosso menu. -->
+
                 <li><a href="#sobre">Sobre mim</a></li>
                 <li><a href="#projetos">Projetos</a></li>
                 <li><a href="#contato">Contato</a></li>
                 <li><a href="https://google.com.br" target="_blank">Google</a></li>
 
             </ul>
+
         </nav>
+
     </header>
 
     <section id=sobre">
+
         <h2>Sobre mim</h2>
 
-        <img src="C:\Users\aeroe\Downloads\a28741f9-d177-4af6-8cde-8a8aa32080af.JPG" width="320"
-            height="450" alt="Imagem de foto do perfil" title="Imagem de perfil de Suelen">
+        <img src="https://github.com/suelentonello85-lab/site/blob/main/a28741f9-d177-4af6-8cde-8a8aa32080af.JPG?raw=true" width="220"
+            height="300" alt="Imagem de foto do perfil" title="Imagem de perfil de Suelen">
 
         <article>
 
             <p>
-                olá, eu sou a Suelen...
+                Olá, eu sou a Suelen, formada em Direito, porém sou muito curiosa e amo aprender sobre diferentes
+                áeras. Amo animais, natureza e artes, em especial pintura!
             </p>
 
         </article>
@@ -41,7 +49,8 @@
             <h3>Habilidades</h3>
 
             <ul>
-                <li>Projetos</li>
+
+                <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
                 <li>Python</li>
@@ -61,12 +70,56 @@
             <h3>Portfólio</h3>
 
             <p>
-
-                Este é meu primeiro projeto estudando front-end.
-
+                Este Portfólio é meu primeiro projeto estudando front-end no curso de Desenvolvimento de Software do
+                SCTEC.
             </p>
 
         </article>
+
+    </section>
+
+    <section id="habilidades">
+
+        <h2>Habilidades e tecnologias</h2>
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Tecnologia</th>
+                    <th>Nível</th>
+                    <th>Descrição</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>Iniciante</td>
+                    <td>Construção de estrututas de páginas web semânticas e responsivas</td>
+                </tr>
+
+                <tr>
+                    <td>CSS</td>
+                    <td>Iniciante</td>
+                    <td>Noções básicas de flexbox, grid e animações</td>
+                </tr>
+
+                <tr>
+                    <td>Javascript</td>
+                    <td>Iniciante</td>
+                    <td>Desenvolvimento de scripts do lado do cliente para interações</td>
+                </tr>
+
+                <tr>
+                    <td>Python</td>
+                    <td>Iniciante</td>
+                    <td>Análise de dados</td>
+                </tr>
+
+            </tbody>
+
+        </table>
 
     </section>
 
@@ -88,6 +141,39 @@
                 E-mail: <a href="mailto:suelentonello85@gmail.com">suelentonello85@gmail.com</a> <br>
                 WhatsApp: <a href="tel:+5549999897177">(49)99989-7177</a>
             </address>
+
+            <br>
+
+            <form action="">
+
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" required><br>    
+
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" required><br>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" name="email" id="telefone"><br>
+
+                <label for="assunto">Assunto:</label>
+                <select name="assunto" id="assunto">
+                    <option value="orcamento">Orçamento</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="outro">Outro</option>
+                </select>
+
+                <br>
+
+                <label for="mensagem">Mensaagem</label>
+                <textarea name="mensagem" id="mensagem" cols="20" rows="5" required></textarea><br>
+
+                <input type="checkbox" name="inscricao" id="inscricao">
+                <label for="inscricao">Deseja receber minha newsletter? Fique por dentro.</label><br>
+
+                <input type="submit" value="enviar mensagem">
+
+
+            </form>
 
         </section>
 
