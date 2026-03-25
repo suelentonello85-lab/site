@@ -5,82 +5,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio de Suelen</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
+    <header class="hero">
 
-        <h1>Suelen</h1>
+        <nav class="navbar"> 
 
-        <nav> <!-- Seção de navegação do site. -->
+            <h3 class="logo">DevPortfólio</h3>
 
-            <ul><!-- Lista não ordenada para links do nosso menu. -->
+            <ul class="menu">
 
                 <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
                 <li><a href="#projetos">Projetos</a></li>
                 <li><a href="#contato">Contato</a></li>
-                <li><a href="https://google.com.br" target="_blank">Google</a></li>
-
+                
             </ul>
 
         </nav>
 
+        <div class="hero-container">
+
+            <p class="intro">Olá eu sou</p>
+            <h2>Desenvolvedor FrontEnd</h2>
+            <p class="intro">Criando experiências digitais com código</p>
+
+        </div>
+
     </header>
 
-    <section id=sobre">
+    <section id="sobre">
 
         <h2>Sobre mim</h2>
 
-        <img src="https://github.com/suelentonello85-lab/site/blob/main/a28741f9-d177-4af6-8cde-8a8aa32080af.JPG?raw=true" width="220"
+        <div class="container">
+        <div class="foto">
+            <img src="https://github.com/suelentonello85-lab/site/blob/main/a28741f9-d177-4af6-8cde-8a8aa32080af.JPG?raw=true" width="220"
             height="300" alt="Imagem de foto do perfil" title="Imagem de perfil de Suelen">
+        </div>
+        
+        <p id="paragrafo">
+            
+            Olá, eu sou a Suelen, formada em Direito, tenho 40 anos e estou em uma fase de transição de carreira. 
+            Sempre fui muito curiosa e amo aprender sobre diversas áreas! Com a iniciativa do programa SCTEC, tive a
+            oportunidade de iniciar meus aprendizados na área de tecnologia. Estou em constante evolução e espero, com 
+            meus conhecimentos e criatividade, poder contribuir nos mais variados projetos.
 
-        <article>
-
-            <p>
-                Olá, eu sou a Suelen, formada em Direito, porém sou muito curiosa e amo aprender sobre diferentes
-                áeras. Amo animais, natureza e artes, em especial pintura!
-            </p>
-
-        </article>
-
-        <aside>
-
-            <h3>Habilidades</h3>
-
-            <ul>
-
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Python</li>
-
-            </ul>
-
-        </aside>
-
-    </section>
-
-    <section id="projetos">
-
-        <h2>Projetos</h2>
-
-        <article>
-
-            <h3>Portfólio</h3>
-
-            <p>
-                Este Portfólio é meu primeiro projeto estudando front-end no curso de Desenvolvimento de Software do
-                SCTEC.
-            </p>
-
-        </article>
+        </p>
+    
+        </div>
 
     </section>
 
     <section id="habilidades">
 
-        <h2>Habilidades e tecnologias</h2>
+        <h2>Habilidades</h2>
 
         <table>
 
@@ -120,6 +102,23 @@
             </tbody>
 
         </table>
+
+    </section>
+       
+    <section id="projetos">
+
+        <h2>Projetos</h2>
+
+        <article>
+
+            <h3>Portfólio</h3>
+
+            <p>
+                Este Portfólio é meu primeiro projeto estudando front-end no curso de Desenvolvimento de Software do
+                SCTEC.
+            </p>
+
+        </article>
 
     </section>
 

@@ -1,0 +1,129 @@
+* {
+    margin: 10;
+    padding: 10;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #1a3059;
+    color: #eaeedd;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.logo {
+    color: #d88791;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    color: #d88791;
+}
+
+.hero {
+    height: 40vh;
+}
+
+.hero-container {
+    text-align: center;
+    margin-top: 3em;
+    height: 30vh;
+    background: #56ab91;;
+}
+
+.intro {
+    color: #eaeedd;
+    margin-bottom: 10px;
+}
+
+.hero-container h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+#sobre {
+    height: 40vh;
+    padding: 1em;
+    margin-top: 20vh;
+    line-height: 1.6
+}
+
+#sobre h2 {
+  font-size: 2rem; 
+  margin-bottom: 1em; 
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  align-items: center; 
+  gap: 20px;
+}
+
+.foto {
+  width: 300px;
+  height: auto;
+  border: 1px solid #333;
+  overflow: hidden;
+}
+
+.foto img {
+  width: 100%;    
+  height: auto;  
+  display: block;
+}
+
+#paragrafo {
+    background: #ce5374;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #eaeedd;
+    color: #eaeedd;
+}
+
+#habilidades {
+  margin: 2rem; /* espaçamento relativo ao html */
+  font-size: 1rem; /* base de 16px */
+}
+
+#habilidades h2 {
+  font-size: 2rem; /* título maior, sempre relativo ao html */
+  margin-bottom: 1em; /* relativo ao próprio tamanho da fonte */
+  text-align: center;
+}
+
+#habilidades table {
+  width: 45%;
+  border-collapse: collapse;
+  font-size: 1em; /* igual ao body → 16px */
+}
+
+#habilidades th, #habilidades td {
+  border: 1px solid #eaeedd; /* fixo em px */
+  padding: 0.75em; /* relativo ao tamanho da fonte da célula */
+  text-align: left;
+}
+
+#habilidades th {
+  background-color: #56ab91;
+  font-size: 1.125rem;
+}
+
+#habilidades tr {
+  background-color: #98c5b8;
+}
