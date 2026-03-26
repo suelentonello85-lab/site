@@ -43,7 +43,8 @@ li {
     text-align: center;
     margin-top: 3em;
     height: 30vh;
-    background: #56ab91;;
+    border-radius: 10px;
+    background: radial-gradient(circle at top, #56ab91, #cfe4dd);
 }
 
 .intro {
@@ -73,6 +74,7 @@ li {
   display: flex;
   align-items: center; 
   gap: 20px;
+  flex: 1;
 }
 
 .foto {
@@ -92,38 +94,69 @@ li {
     background: #ce5374;
     margin: 10px;
     padding: 10px;
-    border: 1px solid #eaeedd;
-    color: #eaeedd;
-}
+    border-radius: 10px;
+    border: 2px dashed #eaeedd;
+    font-weight: bold;
+   }
 
 #habilidades {
-  margin: 2rem; /* espaçamento relativo ao html */
-  font-size: 1rem; /* base de 16px */
+    margin: 2rem; 
+    font-size: 1rem;
+    display: flex;
+    height: 65vh;
 }
 
 #habilidades h2 {
-  font-size: 2rem; /* título maior, sempre relativo ao html */
-  margin-bottom: 1em; /* relativo ao próprio tamanho da fonte */
-  text-align: center;
+    font-size: 2rem; 
+    margin-bottom: 1em; 
+    text-align: center;
 }
 
 #habilidades table {
-  width: 45%;
-  border-collapse: collapse;
-  font-size: 1em; /* igual ao body → 16px */
+    width: 45%; 
+    font-size: 1em;
 }
 
 #habilidades th, #habilidades td {
-  border: 1px solid #eaeedd; /* fixo em px */
-  padding: 0.75em; /* relativo ao tamanho da fonte da célula */
-  text-align: left;
+    border: 1px solid #eaeedd; 
+    padding: 0.75em; 
+    text-align: left; 
+    border-radius: 10px;
 }
 
 #habilidades th {
-  background-color: #56ab91;
-  font-size: 1.125rem;
+    background-color: #56ab91; 
+    font-size: 1.125rem;
 }
 
 #habilidades tr {
-  background-color: #98c5b8;
+    background-color: #98c5b8;
 }
+
+#projetos {
+    margin: 2rem; 
+    font-size: 1rem;
+    display: flex;
+    height: 65vh;
+}
+
+#projetos h2{
+    font-size: 2rem; 
+    margin-bottom: 1em; 
+    text-align: center;
+}
+
+#contato {
+    height: 20vh;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+#contato p {
+    color: #d88791;
+}
+
+
+
+
+   
