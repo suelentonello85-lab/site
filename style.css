@@ -72,9 +72,10 @@ li {
 
 .container {
   display: flex;
-  align-items: center; 
   gap: 20px;
   flex: 1;
+  align-items: center; 
+  text-align: center; 
 }
 
 .foto {
@@ -125,29 +126,28 @@ li {
 }
 
 #habilidades th {
-    background-color: #56ab91; 
+    background-color: #20886b; 
     font-size: 1.125rem;
 }
 
 #habilidades tr {
-    background-color: #98c5b8;
+    background-color: #56ab91;
 }
 
 #projetos {
     margin: 2rem; 
     font-size: 1rem;
-    display: flex;
-    height: 65vh;
+    height: 1vh
 }
 
 #projetos h2{
     font-size: 2rem; 
     margin-bottom: 1em; 
-    text-align: center;
+    text-align: left;
 }
 
 #contato {
-    height: 20vh;
+    height: 35vh;
     text-align: center;
     flex-wrap: wrap;
 }
@@ -156,7 +156,34 @@ li {
     color: #d88791;
 }
 
+.tabuleiro {
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    gap: 10px;
+    }
 
+.celula {
+    display: flex;
+    background-color: #d88791;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 46px;
+    cursor: pointer;
+}
 
+#botaoReiniciar {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #56ab91;
+}
 
+#jvelha {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     height: 90vh;
+}
    
