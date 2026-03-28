@@ -39,6 +39,17 @@ li {
     min-height: 40vh;
 }
 
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
 .hero-container {
     text-align: center;
     margin-top: 3em;
@@ -103,19 +114,22 @@ img {
 #habilidades {
     margin: 2rem; 
     font-size: 1rem;
-    display: flex;
     min-height: 65vh;
 }
 
 #habilidades h2 {
+    margin: 10px;
+    padding: 10px;
     font-size: 2rem; 
     margin-bottom: 1em; 
     text-align: center;
 }
 
 #habilidades table {
-    width: 45%; 
+    width: 70%; /* ocupa toda a largura disponível */
+    border-collapse: collapse;
     font-size: 1em;
+
 }
 
 #habilidades th, #habilidades td {
@@ -146,16 +160,6 @@ img {
     text-align: left;
 }
 
-#contato {
-    min-height: 35vh;
-    text-align: center;
-    flex-wrap: wrap;
-}
-
-#contato p {
-    color: #d88791;
-}
-
 .tabuleiro {
     display: grid;
     grid-template-columns: repeat(3,100px);
@@ -177,6 +181,7 @@ img {
     margin-top: 20px;
     padding: 15px;
     background-color: #56ab91;
+    color: inherit;
 }
 
 #jvelha {
@@ -186,4 +191,16 @@ img {
      align-items: center;
      min-height: 90vh;
 }
+
+#contato {
+    min-height: 35vh;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+#contato p {
+    color: #d88791;
+}
+
+
    
